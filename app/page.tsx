@@ -24,11 +24,11 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis.
           </p>
-          <button className="bg-[#B88E2F] hover-bg-[#b88e2f] text-white  w-44 p-4 mt-6 rounded-md">
-            <Link href="/products" className="text-base font-bold text-white">
-              Buy Now
-            </Link>
-          </button>
+          <Link href="/productpage">
+  <button className="bg-[#B88E2F] hover:bg-[#b88e2f] text-white w-44 p-4 mt-6 rounded-md">
+    Buy Now
+  </button>
+</Link>
         </div>
       </div>
       <div className="w-full text-center">

@@ -65,8 +65,8 @@ const ProductCards: React.FC = () => {
 
   return (
     <div className="p-6 bg-gray-50">
-      <h2 className="text-center text-[#B88E2F] text-[32px] font-bold mt-4 mb-8">
-        Products Slider
+      <h2 className="text-center text-[#B88E2F] text-[40px] font-bold mt-4 mb-8">
+        New Products Range
       </h2>
       <Swiper
         modules={[Navigation, Pagination]}
